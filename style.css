@@ -95,10 +95,18 @@ body {
 
 .social {
   position: relative;
-  z-index: 99;
+  z-index: 98;
   font-family: "Caviar Dreams", sans-serif;
   font-size: 3em;
   color: #fff;
+}
+
+#sketch {
+  position: relative;
+  top: 10px;
+  height: 300px;
+  border: red;
+  z-index: 99;
 }
 
 h1 {
@@ -139,6 +147,7 @@ a:hover {
 
 .footer {
   font-family: "Caviar Dreams", sans-serif;
+  z-index: 98;
   color: #fff;
   position: absolute;
   bottom: 10px;
