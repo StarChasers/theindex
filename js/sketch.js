@@ -41,5 +41,4 @@ var muteSound = function() {
     playing = 1;
     vfx.setVolume(0.5);
   }
-  console.log(playing);
 };
