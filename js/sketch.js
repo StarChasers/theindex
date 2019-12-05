@@ -14,7 +14,7 @@ function setup() {
   let cnv = createCanvas(300, 300);
   cnv.parent("sketch");
   background(0, 0, 0, 0);
-  vfx.setVolume(0.5);
+  vfx.setVolume(0.1);
   vfx.play();
   cnv.mouseClicked(muteSound);
 }
@@ -39,6 +39,6 @@ var muteSound = function() {
     vfx.setVolume(0);
   } else {
     playing = 1;
-    vfx.setVolume(0.5);
+    vfx.setVolume(0.1);
   }
 };
